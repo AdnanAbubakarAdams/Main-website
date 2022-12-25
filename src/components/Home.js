@@ -6,8 +6,8 @@ const Home = () => {
         <div className='max-w-screen-lg mx-auto flex flex-col items-center justify-center h-full px-4 md:flex-row'>
             <div className='flex flex-col justify-center h-full'>
                 <p className='text-cyan-500'>Hi, my name is</p>
-                <h2 className='text-4xl sm:text-7xl font-bold text-white'> Abubakar Adnan Adams</h2>
-                <h3 className='text-2xl sm:text-5xl text-gray-500'> Full Stack Web-Developer</h3>
+                <h2 className='text-4xl sm:text-7xl font-bold text-white'> Adnan .A. Adams</h2>
+                <h3 className='text-2xl sm:text-5xl text-gray-500'>Full Stack Web-Developer</h3>
                 <p className='py-4 text-gray-500 max-w-md'>
                     i build websites that your users are going to love, 
                     I am currently working on web applicatiion using technologies like 
@@ -21,11 +21,11 @@ const Home = () => {
             </div>
 
             <div>
-                <img className="mx-auto w-2/3 md:w-full  rounded-2xl" src="images/Adnan.jpeg" alt='meadnan' />
+                <img className="mx-auto w-2/3 md:w-full  h-80  ml-3 rounded-2xl" src="images/Adnan.jpeg" alt='meadnan' />
             </div>
         </div>
     </div>
   )
 }
 
-export default Home
+export default Home;
