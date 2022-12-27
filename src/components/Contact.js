@@ -27,9 +27,13 @@ const Contact = () => {
                       <button className="cursor-pointer bg-gradient-to-r from-cyan-500 to-teal-500 text-white mx-auto my-8 flex items-center px-6 py-3 rounded-md hover:scale-110 duration-300">Lets Talk</button>
                 </form>
             </div>
+            <div>
+             <p className='text-center hover:scale-105 duration-500 hover:text-cyan-200'>Designed & built by Adnan Abubakar Adams</p>
+             <p className='text-center hover:scale-105 duration-500 hover:text-cyan-200'>© 2023 A.A.A</p>
+            </div>
         </div>
     </div>
   )
 }
 
-export default Contact
+export default Contact;

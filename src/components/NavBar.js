@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { FaTimes, FaBars } from "react-icons/fa/";
+import { FaTimes, FaBars, FaAutoprefixer } from "react-icons/fa/";
 import { ImSwitch } from "react-icons/im";
 import { Link } from "react-scroll";
 
@@ -11,7 +11,9 @@ const NavBar = () => {
     <div className="bg-black px-4 flex justify-between h-20 w-full items-center text-white fixed ">
       <div>
       <Link to="home" smooth duration={500}>
-        <h1 className="font-Adnan cursor-pointer text-5xl ml-2">Adnan</h1>
+        {/* <h1 className="font-Adnan cursor-pointer text-5xl ml-2">Adnan</h1> */}
+        <FaAutoprefixer className="cursor-pointer text-5xl ml-4 absolute" />
+        <span className="relative ml-5 font-bold">3</span>
         </Link>
       </div>
       <ul className="hidden md:flex">
