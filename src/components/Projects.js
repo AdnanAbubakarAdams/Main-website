@@ -66,9 +66,36 @@ const Projects = () => {
                 </button>
             </div>
           </div>
+          <a href="https://masonmei.wixsite.com/pursuitconnect">
           <div className="shadow-md shadow-gray-600 rounded-lg">
             <img
-              src="images/volunteer.png"
+              src="images/pursuitconnect.png"
+              alt=""
+              className="rounded-md duration-200 hover:scale-105"
+            />
+            <div className="flex items-center justify-center">
+            <button className="w-1/2 px-2 py-3 duration-200 text-gray-500 hover:scale-125 hover:text-gray-300">
+                  Velo
+                </button>
+                <button className="w-1/2 px-2 py-3 duration-200 text-gray-500 hover:scale-125 hover:text-gray-300">
+                  Wix
+                </button>
+                {/* <button className="w-1/2 px-2 py-3 duration-200 text-gray-500 hover:scale-125 hover:text-gray-300">
+                  CSS
+                </button>
+                <button className="w-1/2 px-2 py-3 duration-200 text-gray-500 hover:scale-125 hover:text-gray-300">
+                  Express
+                </button>
+                <button className="w-1/2 px-2 py-3 duration-200 text-gray-500 hover:scale-125 hover:text-gray-300">
+                  PSQL
+                </button> */}
+            </div>
+          </div>
+          </a>
+          <a href="https://addybudget.netlify.app/">
+          <div className="shadow-md shadow-gray-600 rounded-lg">
+            <img
+              src="images/pursuitconnect.png"
               alt=""
               className="rounded-md duration-200 hover:scale-105"
             />
@@ -90,30 +117,7 @@ const Projects = () => {
                 </button>
             </div>
           </div>
-          <div className="shadow-md shadow-gray-600 rounded-lg">
-            <img
-              src="images/volunteer.png"
-              alt=""
-              className="rounded-md duration-200 hover:scale-105"
-            />
-            <div className="flex items-center justify-center">
-            <button className="w-1/2 px-2 py-3 duration-200 text-gray-500 hover:scale-125 hover:text-gray-300">
-                  React
-                </button>
-                <button className="w-1/2 px-2 py-3 duration-200 text-gray-500 hover:scale-125 hover:text-gray-300">
-                  Javascript
-                </button>
-                <button className="w-1/2 px-2 py-3 duration-200 text-gray-500 hover:scale-125 hover:text-gray-300">
-                  CSS
-                </button>
-                <button className="w-1/2 px-2 py-3 duration-200 text-gray-500 hover:scale-125 hover:text-gray-300">
-                  Express
-                </button>
-                <button className="w-1/2 px-2 py-3 duration-200 text-gray-500 hover:scale-125 hover:text-gray-300">
-                  PSQL
-                </button>
-            </div>
-          </div>
+          </a>
         </div>
       </div>
     </div>

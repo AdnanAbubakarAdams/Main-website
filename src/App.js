@@ -7,6 +7,7 @@ import Social from "./components/Social";
 import Technologies from "./components/Technologies";
 
 
+
 function App() {
   return (
     <div>
