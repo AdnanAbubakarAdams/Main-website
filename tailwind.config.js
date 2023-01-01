@@ -8,6 +8,7 @@ module.exports = {
     extend: {},
     fontFamily: {
       Adnan: ["Great Vibes"],
+      // sha: ["Great Vibes"],
     }
   },
   plugins: [],
