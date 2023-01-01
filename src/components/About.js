@@ -38,15 +38,15 @@ const About = () => {
         <div className="w-full grid grid-cols-2 sm:grid-cols-3 gap-8 text-center py-8 px-12 sm:px-0">
           <div className="hover:scale-105 duration-500 py-2 rounded-lg">
             <h5 className="capitalize px-3 py-5">can't hurt me</h5>
-            <img src="images/canthurt.jpeg" alt="" className="w-21 mx-auto" />
+            <img src="images/canthurt.jpeg" alt="" className="w-21 h-72 mx-auto" />
           </div>
           <div className="hover:scale-105 duration-500 py-2 rounded-lg">
-            <h5 className="capitalize px-3 py-5">can't hurt me</h5>
-            <img src="images/canthurt.jpeg" alt="" className="w-21 mx-auto" />
+            <h5 className="capitalize px-3 py-5">Clean Code</h5>
+            <img src="images/cleancode.png" alt="" className="w-21 h-72 mx-auto" />
           </div>
           <div className="hover:scale-105 duration-500 py-2 rounded-lg">
-            <h5 className="capitalize px-3 py-5">can't hurt me</h5>
-            <img src="images/canthurt.jpeg" alt="" className="w-21 mx-auto" />
+            <h5 className="capitalize px-3 py-5">The 15 Invaluable Rules of Growth</h5>
+            <img src="images/ValuableRules.png" alt="" className="w-21 mx-auto h-72" />
           </div>
         </div>
       </div>
