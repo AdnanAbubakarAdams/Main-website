@@ -8,7 +8,7 @@ const NavBar = () => {
     const [click, setClick] = useState(false)
 
   return (
-    <div className="bg-black px-4 flex justify-between h-20 w-full items-center text-white fixed ">
+    <div className="bg-black px-4 flex justify-between h-20 w-full items-center text-white fixed">
       <div>
       <Link to="home" smooth duration={500}>
         {/* <h1 className="font-Adnan cursor-pointer text-5xl ml-2">Adnan</h1> */}

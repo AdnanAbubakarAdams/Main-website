@@ -19,7 +19,6 @@ function App() {
       <Resume />
       <Technologies />
       <Contact />
-
       <Social />
     </div>
   );
