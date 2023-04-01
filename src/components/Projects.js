@@ -57,14 +57,14 @@ const Projects = () => {
                 alt=""
                 className="w-3/5 rounded-md"
               />
-              <div className="w-80 sm:w-1/2 h-40 flex bg-gray-300 rounded-lg p-5 -m-48 sm:-ml-10 duration-200 hover:scale-105">
+              <div className="w-80 sm:w-1/2 h-40 flex bg-gray-300 rounded-lg p-5 -m-48  sm:-ml-10 duration-200 hover:scale-105">
                 <div>
-                  <h3 className="text-2xl text-teal-600 font-bold">AddySports
+                  <h3 className="text-2xl text-teal-600 font-bold">GoldenSolutions
                   <span className="flex justify-end text-xl text-black float-right">
-                  <a href="https://addysports.netlify.app">
+                  <a href="https://mygoldensolutions.netlify.app/">
                   <HiExternalLink className=" text-cyan-600  hover:scale-105 hover:text-red-300 cursor-pointer text-xl font-bold"/>
                   </a>
-                  <a href="https://github.com/AdnanAbubakarAdams/sports-stand">
+                  <a href="https://github.com/AdnanAbubakarAdams/Main-website">
                   <FiGithub className="ml-3  text-cyan-600  hover:scale-105 hover:text-red-300 cursor-pointer text-xl font-bold"/>
                   </a>
                   </span>
